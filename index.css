@@ -16,7 +16,7 @@ body{
     width: 100%;
     height: 100%;
     background-color:#FFFFFF;
-    color: #111;
+        color: #001931;
 }
 
 
@@ -29,7 +29,8 @@ li{
     list-style: none;
 }
 
-/*------------------------------------------------------------------------------- Navber -----------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------- Navbar -----------------------------------------------------------------------------*/
 
 nav{
     width:100%;
@@ -185,7 +186,7 @@ nav .nav-btn:hover{
 
 .hero-section .hero-inside-div-button-2:hover{
     background-color: white;
-    color: #1C1D20;
+    color: #001931;
 }
 
 
@@ -196,6 +197,70 @@ nav .nav-btn:hover{
 }
 
 .hero-section .hero-inside-div-button-2:hover i{
-    color: #1C1D20;
+    color: #001931;
 }
 
+/*------------------------------------------------------------------------------- Note Section -----------------------------------------------------------------------------*/
+
+.note-section{
+    width: 100%;
+    height:500px;
+    background-color: #fbfbfb;
+    padding:100px 120px 0;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.note-section h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.note-section p{
+    font-size: 16px;
+    margin-top: 16px;
+    color: #627382;
+}
+
+.note-cards-section{
+    width: 1360px;
+    height:300px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 44px auto 0;
+}
+
+.note-cards{
+    width: 322px;
+    height: 300px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-cards-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f95555;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*------------------------------------------------------------------------------- Brain Section-----------------------------------------------------------------------------*/
+
+.brain-section{
+    width: 100%;
+    height: 840px;
+}
