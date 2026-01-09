@@ -29,6 +29,8 @@ li{
     list-style: none;
 }
 
+/*------------------------------------------------------------------------------- Navber -----------------------------------------------------------------------------*/
+
 nav{
     width:100%;
     height: 92px;
@@ -54,10 +56,146 @@ nav .nav-btn{
     font-size: 16px;
     font-weight: 600;
     color: white;
-    background-color: #30b868;
+    background-color: #469165;
     border: none;
     padding:12.5px 16px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+nav .nav-btn:hover{
+    background-color: #30b868;
+}
+
+/*------------------------------------------------------------------------------- Hero Section -----------------------------------------------------------------------------*/
+
+.hero-section{
+    width: 100%;
+    height: 850px;
+    background-image: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-inside-div{
+    width:1360px;
+    height: 379px;
+    margin:auto;
+    text-align: center;
+}
+
+.div-early-access{
+    max-width:233px;
+    font-size: 16px;
+    padding: 8px 14px;
+    background-color: white;
+    color: #469165;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.div-early-access .early-access-first-dot{
+    width: 16px;
+    height: 16px;
+    background-color:#dae9e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-early-access .early-access-second-dot{
+    width: 12px;
+    height: 12px;
+    background-color:#9fc6af;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-early-access .early-access-third-dot{
+    width: 6px;
+    height: 6px;
+    background-color:#469165;
+    border-radius: 50%;
+}
+
+
+
+.hero-inside-div h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    margin: 16px 0;
+}
+
+.hero-inside-div h1 span{
+    color: #469165;  
+}
+
+.hero-inside-div p{
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}
+
+.hero-section .hero-inside-div-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+
+.hero-section .hero-inside-div-button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:16.5px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-section .hero-inside-div-button-1{
+    background-color: #469165;
+    border:1px solid #469165;
+    margin-right: 16px;
+}
+
+.hero-section .hero-inside-div-button-1 img{
+    margin-left:10px;
+}
+
+.hero-section .hero-inside-div-button-1:hover{
+    background-color: #30b868;
+}
+
+.hero-section .hero-inside-div-button-2{
+    background-color: transparent;
+    border:1px solid white;
+}
+
+.hero-section .hero-inside-div-button-2:hover{
+    background-color: white;
+    color: #1C1D20;
+}
+
+
+.hero-section .hero-inside-div-button button i{
+    font-size:19px;
+    color: white;
+    margin-right: 6px;
+}
+
+.hero-section .hero-inside-div-button-2:hover i{
+    color: #1C1D20;
 }
 
